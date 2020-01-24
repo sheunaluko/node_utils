@@ -1,0 +1,31 @@
+{
+  "name": "@sheunaluko/node_utils",
+  "version": "1.0.0",
+  "description": "Collection of utility functions for nodejs",
+  "main": "node_utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheunaluko/node_utils.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Utility"
+  ],
+  "author": "Sheun Aluko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheunaluko/node_utils/issues"
+  },
+  "homepage": "https://github.com/sheunaluko/node_utils#readme",
+  "dependencies": {
+    "diffsync": "^2.1.2",
+    "express": "^4.17.1",
+    "json2xls": "^0.1.2",
+    "nodemailer": "^6.4.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
