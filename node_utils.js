@@ -22,9 +22,6 @@ var execute = function(cmd_str) {
     })
 }
 
-function play_success_1() {
-    execute("/Users/oluwa/dev/bin/play_success_1")
-}
 
 function apply(f,args)  { 
     return f.apply(null, args) 
@@ -325,5 +322,5 @@ async function make_diff_sync_client(url, id) {
 } 
 
 
-module.exports = {identity, play_success_1, apply , define, first_upper_case, loop_until_true, set_difference, first, second, rest, last ,delay , vec_and , is_val_or_undefined, is_string_of_length, is_non_empty_string, keys, vec_or ,write_json_to_xlsx, delete_file , format , send_email, send_text, make_diff_server , make_diff_sync_client , string_contains_any, arithmetic_ops , has_arithmetic , safe_eval, execute, async_exec} 
+module.exports = {identity, apply , define, first_upper_case, loop_until_true, set_difference, first, second, rest, last ,delay , vec_and , is_val_or_undefined, is_string_of_length, is_non_empty_string, keys, vec_or ,write_json_to_xlsx, delete_file , format , send_email, send_text, make_diff_server , make_diff_sync_client , string_contains_any, arithmetic_ops , has_arithmetic , safe_eval, execute, async_exec} 
 
